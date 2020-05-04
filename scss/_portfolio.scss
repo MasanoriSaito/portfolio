@@ -1,0 +1,16 @@
+.portfolio_img {
+    img {
+        width: 100%;
+        border: 1px solid #EEE;
+        @include tab {
+            margin-bottom: 2rem;
+        }
+    }
+}
+
+.marginImg {
+    margin-bottom: 3rem;
+    @include tab {
+        margin: 0;
+    }
+}

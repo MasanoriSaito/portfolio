@@ -1,0 +1,34 @@
+.service_item {
+    h3 {
+        font-size: 3rem;
+        text-align: center;
+        margin-bottom: 1.5rem;
+        @include tab {
+            font-size: 2rem;
+            margin-bottom: 1.2rem;
+        }
+    }
+    p {
+        text-align: center;
+        font-size: 1.5rem;
+        @include tab {
+            font-size: 1.2rem;
+        }
+    }
+}
+
+@include sp {
+    .catch {
+        margin-bottom: 6rem;
+    }
+}
+
+.service_img {
+    width: 200px;
+    height: 170px;
+    margin: 0 auto;
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}

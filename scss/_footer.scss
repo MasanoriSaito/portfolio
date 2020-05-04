@@ -1,0 +1,36 @@
+footer {
+    padding: 10rem 7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @include tab {
+        justify-content: center;
+        padding: 5rem 3rem;
+    }
+    nav {
+        width: 40%;
+        display: flex;
+        align-items: flex-end;
+        @include tab {
+            display: none;
+        }
+        ul {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            background-color: #fff;
+            li {
+                font-family: lato;
+                font-size: 1.5rem;
+            }
+        }
+    }
+
+    small {
+        font-size: 1.5rem;
+        white-space: nowrap;
+        @include tab {
+            font-size: 1.3rem;
+        }
+    }
+}

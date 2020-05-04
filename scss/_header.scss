@@ -1,0 +1,53 @@
+header {
+    // background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    padding: 10rem 7rem;
+    // align-items: flex-end;
+    @include tab {
+        justify-content: center;
+        padding: 25px 0;
+    }
+
+    img {
+        
+        height: 70px;
+        @include tab {
+            height: 30px;
+            text-align: center;
+        }
+    }
+    
+    .pcMenu {
+        width: 40%;
+        display: flex;
+        align-items: flex-end;
+
+        @include tab {
+            display: none;
+        }
+
+        ul {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            background-color: #fff;
+            li {
+                font-family: lato;
+                font-size: 1.5rem;
+            }
+        }
+    }  
+}
+
+.tabMenu {
+    @include pc {
+        display: none;
+    }
+    li {
+        font-size: 1.2rem;
+        text-align: center;
+        padding: 1rem 0;
+        border: 1px solid #EEE;
+    }
+}

@@ -1,0 +1,401 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  font-weight: normal;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+nav, ul, li {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+a:visited {
+  color: inherti;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input, select {
+  vertical-align: middle;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: #707070;
+  font-family: YuGothic;
+  letter-spacing: 1.5px;
+  line-height: 1.6;
+}
+
+.wrap {
+  padding: 7rem 15%;
+}
+
+@media screen and (max-width: 1169px) {
+  .wrap {
+    padding: 3rem 1rem;
+  }
+}
+
+.title {
+  font-family: lato;
+  font-weight: lighter;
+  font-size: 5rem;
+  text-align: center;
+  margin-bottom: 7rem;
+}
+
+@media screen and (max-width: 1169px) {
+  .title {
+    font-size: 3rem;
+    margin-bottom: 4rem;
+  }
+}
+
+a:hover {
+  color: inherit;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10rem 7rem;
+}
+
+@media screen and (max-width: 1169px) {
+  header {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 25px 0;
+  }
+}
+
+header img {
+  height: 70px;
+}
+
+@media screen and (max-width: 1169px) {
+  header img {
+    height: 30px;
+    text-align: center;
+  }
+}
+
+header .pcMenu {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+@media screen and (max-width: 1169px) {
+  header .pcMenu {
+    display: none;
+  }
+}
+
+header .pcMenu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  background-color: #fff;
+}
+
+header .pcMenu ul li {
+  font-family: lato;
+  font-size: 1.5rem;
+}
+
+@media screen and (min-width: 1170px) {
+  .tabMenu {
+    display: none;
+  }
+}
+
+.tabMenu li {
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 1rem 0;
+  border: 1px solid #EEE;
+}
+
+#firstview {
+  height: 100%;
+  width: 100%;
+  padding: 10rem 0;
+}
+
+@media screen and (max-width: 1169px) {
+  #firstview {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 50vh;
+    padding: 0;
+  }
+}
+
+.fv_img {
+  margin: 0 auto;
+  width: 300px;
+  height: 200px;
+}
+
+@media screen and (max-width: 1169px) {
+  .fv_img {
+    width: 200px;
+    height: 140px;
+  }
+}
+
+.fv_img img {
+  width: 100%;
+  height: 100%;
+}
+
+.service_item h3 {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+@media screen and (max-width: 1169px) {
+  .service_item h3 {
+    font-size: 2rem;
+    margin-bottom: 1.2rem;
+  }
+}
+
+.service_item p {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 1169px) {
+  .service_item p {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .catch {
+    margin-bottom: 6rem;
+  }
+}
+
+.service_img {
+  width: 200px;
+  height: 170px;
+  margin: 0 auto;
+}
+
+.service_img img {
+  width: 100%;
+  height: 100%;
+}
+
+.portfolio_img img {
+  width: 100%;
+  border: 1px solid #EEE;
+}
+
+@media screen and (max-width: 1169px) {
+  .portfolio_img img {
+    margin-bottom: 2rem;
+  }
+}
+
+.marginImg {
+  margin-bottom: 3rem;
+}
+
+@media screen and (max-width: 1169px) {
+  .marginImg {
+    margin: 0;
+  }
+}
+
+.toTop {
+  text-align: center;
+  font-size: 4rem;
+}
+
+.toTop i:hover {
+  cursor: pointer;
+}
+
+footer {
+  padding: 10rem 7rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (max-width: 1169px) {
+  footer {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 5rem 3rem;
+  }
+}
+
+footer nav {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+@media screen and (max-width: 1169px) {
+  footer nav {
+    display: none;
+  }
+}
+
+footer nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  background-color: #fff;
+}
+
+footer nav ul li {
+  font-family: lato;
+  font-size: 1.5rem;
+}
+
+footer small {
+  font-size: 1.5rem;
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 1169px) {
+  footer small {
+    font-size: 1.3rem;
+  }
+}
+/*# sourceMappingURL=main.css.map */
